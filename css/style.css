@@ -5480,3 +5480,48 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 10px;
     font-size: 12px
 }
+.more-btn {
+    color: #161e46;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px
+}
+
+.more-btn i {
+    color: #161e46;
+    background: transparent;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    line-height: 38px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s
+}
+
+.more-btn:hover {
+    color: #161e46
+}
+
+.more-btn:hover i {
+    color: #fff;
+    background: #ff5f13
+}
+
+#preloader {
+    background: #fff url(../img/loader.gif) no-repeat center center;
+    background-size: 6%;
+    height: 100vh;
+    width: 100%; /* Use "vw" instead of "vh" for width to cover the entire viewport horizontally */
+    position: fixed;
+    z-index: 100;
+  }
+  .loaded #preloader {
+    display: none;
+  }
