@@ -2105,38 +2105,44 @@ h3 {
     }
 }
 
+/* Style for the contact section button */
 .contact-section .btn_2 {
     background-color: #191d34;
     padding: 18px 60px;
     border-radius: 50px;
-    margin-top: 0
+    margin-top: 0;
 }
 
+/* Hover style for the contact section button */
 .contact-section .btn_2:hover {
-    background-color: #ff5e13
+    background-color: #ff5e13;
 }
 
+/* Style for the footer area */
 .footer-area {
     background-image: url(../img/3392075.jpg);
     padding: 120px 0px 0;
     position: relative;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 991px) {
     .footer-area {
-        padding:120px 0px 0
+        padding: 120px 0px 0;
     }
 }
 
+/* Style for footer widget columns in the footer area */
 .footer-area .col-lg-12 {
     padding-left: 0px;
     padding-right: 0px;
-    overflow: hidden
+    overflow: hidden;
 }
 
+/* Media query for smaller screens and margin for single footer widget */
 @media (max-width: 991px) {
     .footer-area .single-footer-widget {
-        margin-bottom:30px
+        margin-bottom: 30px;
     }
 }
 
